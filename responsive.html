@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enhanced Interactive Navbar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <div class="glow-ring"></div>
+            <span>MyBrand</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" aria-label="Toggle Dark/Light Theme">Dark Mode</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+            <i class="fa fa-bars"></i>
+        </button>
+    </nav>
+
+    <section class="section" id="home">
+        <h1>Welcome to Home</h1>
+        <p>
+            Empowering innovation through technology and creativity. At MyBrand, we blend cutting-edge design with
+            robust solutions to help brands and businesses thrive in the digital world.
+        </p>
+    </section>
+
+    <section class="section" id="about">
+        <h1>About Us</h1>
+        <p>
+            We are a team of passionate designers, developers, and strategists committed to delivering digital
+            experiences that captivate and convert. With a focus on user-centric design and scalable architecture, we
+            help clients grow through innovation.
+        </p>
+    </section>
+
+    <section class="section" id="services">
+        <h1>Our Services</h1>
+        <ul>
+            <li><i class="fa fa-code"></i> <strong>Web Development:</strong> Responsive, SEO-friendly websites tailored
+                to your brand.</li>
+            <li><i class="fa fa-paint-brush"></i> <strong>UI/UX Design:</strong> User-first interface designs that
+                enhance engagement.</li>
+            <li><i class="fa fa-lightbulb-o"></i> <strong>Brand Strategy:</strong> Build meaningful brand identity and
+                positioning.</li>
+            <li><i class="fa fa-line-chart"></i> <strong>Digital Marketing:</strong> Increase reach and conversions
+                through smart campaigns.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="contact">
+        <h1>Contact Us</h1>
+        <p>
+            Let's bring your ideas to life. Reach out for collaborations, consultations, or any queries.
+        </p>
+        <p>
+            📧 Email: <a href="mailto:hello@mybrand.com">hello@mybrand.com</a><br>
+            📞 Phone: +91 98765 43210<br>
+            📍 Address: 123, Innovation Street, Tech City, India
+        </p>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
