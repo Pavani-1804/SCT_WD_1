@@ -16,7 +16,7 @@
     <nav class="navbar">
         <div class="logo">
             <div class="glow-ring"></div>
-            <span>MyBrand</span>
+            <span>SkillCraft TECHNOLOGY</span>
         </div>
 
         <ul class="nav-links" id="navLinks">
@@ -25,55 +25,125 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <button id="theme-toggle" aria-label="Toggle Dark/Light Theme">Dark Mode</button>
+        <button class="dark-theme" id="theme-toggle">Dark Mode</button>
         <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
             <i class="fa fa-bars"></i>
         </button>
     </nav>
 
     <section class="section" id="home">
-        <h1>Welcome to Home</h1>
+        <h1>Welcome to SkillCraft TECHNOLOGY</h1>
         <p>
-            Empowering innovation through technology and creativity. At MyBrand, we blend cutting-edge design with
-            robust solutions to help brands and businesses thrive in the digital world.
+            At <strong>SkillCraft TECHNOLOGY</strong>, we believe in crafting the future through skills, innovation, and
+            smart technology solutions.
+            Our mission is to empower students, professionals, and organizations by bridging the gap between learning
+            and application.
+        </p>
+        <p>
+            Whether you're looking to upskill in the latest tech stacks, transform your digital presence, or build
+            scalable products,
+            SkillCraft is your trusted partner. With a focus on interactive learning, real-world projects, and hands-on
+            mentorship,
+            we’re shaping a tech-savvy generation equipped for the future.
         </p>
     </section>
 
     <section class="section" id="about">
-        <h1>About Us</h1>
+        <h1>About SkillCraft TECHNOLOGY</h1>
         <p>
-            We are a team of passionate designers, developers, and strategists committed to delivering digital
-            experiences that captivate and convert. With a focus on user-centric design and scalable architecture, we
-            help clients grow through innovation.
+            SkillCraft TECHNOLOGY is a dynamic platform dedicated to nurturing talent and fostering innovation in the
+            field of technology.
+            Our team consists of passionate developers, educators, and industry experts who are committed to delivering
+            impactful learning experiences and professional solutions.
         </p>
+        <p>
+            From hands-on training programs to cutting-edge web and software development services, we aim to create an
+            ecosystem where learners transform into leaders.
+            Our internships and live projects give students real-time exposure to current technologies and workplace
+            expectations.
+        </p>
+        <button onclick="window.location.href='mailto:internships@skillcrafttech.com'"
+            style="margin-top: 20px; padding: 12px 20px; background: #ee0979; color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
+            Apply for Internship
+        </button><i class="fa fa-paper-plane" style="margin-right: 8px;"></i>
     </section>
 
     <section class="section" id="services">
         <h1>Our Services</h1>
-        <ul>
-            <li><i class="fa fa-code"></i> <strong>Web Development:</strong> Responsive, SEO-friendly websites tailored
-                to your brand.</li>
-            <li><i class="fa fa-paint-brush"></i> <strong>UI/UX Design:</strong> User-first interface designs that
-                enhance engagement.</li>
-            <li><i class="fa fa-lightbulb-o"></i> <strong>Brand Strategy:</strong> Build meaningful brand identity and
-                positioning.</li>
-            <li><i class="fa fa-line-chart"></i> <strong>Digital Marketing:</strong> Increase reach and conversions
-                through smart campaigns.</li>
-        </ul>
+        <p style="max-width: 800px; margin-bottom: 30px;">
+            At <strong>SkillCraft TECHNOLOGY</strong>, we offer a wide range of services designed to empower individuals
+            and businesses in the digital world.
+            From skill development to strategic digital transformation, our services are tailored to drive real results.
+        </p>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Custom, responsive websites and web apps built with modern frameworks and best practices.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Intuitive and engaging interfaces designed with a focus on user experience and usability.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa fa-graduation-cap"></i>
+                <h3>Training & Internships</h3>
+                <p>Project-based learning programs and internships that bridge the gap between theory and real-world
+                    application.</p>
+            </div>
+        </div>
     </section>
 
     <section class="section" id="contact">
-        <h1>Contact Us</h1>
-        <p>
-            Let's bring your ideas to life. Reach out for collaborations, consultations, or any queries.
-        </p>
-        <p>
-            📧 Email: <a href="mailto:hello@mybrand.com">hello@mybrand.com</a><br>
-            📞 Phone: +91 98765 43210<br>
-            📍 Address: 123, Innovation Street, Tech City, India
-        </p>
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have any questions or want to collaborate? We'd love to hear from you!</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>SkillCraft Technology</h3>
+                <p>Empowering Skills, Enabling Careers. We specialize in tech training, project development, and
+                    internships for future innovators.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#apply">Apply for Internship</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: info@skillcrafttech.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 SkillCraft Technology. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 
 </body>
